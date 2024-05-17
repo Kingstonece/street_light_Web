@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP8266 LED Control</title>
+</head>
+<body>
+  <h1>ESP8266 LED Control</h1>
+  <button id="onButton">Turn On LED</button>
+  <button id="offButton">Turn Off LED</button>
+
+  <script>
+    document.getElementById("onButton").addEventListener("click", function() {
+      sendCommand("ON");
+    });
+
+    document.getElementById("offButton").addEventListener("click", function() {
+      sendCommand("OFF");
+    });
+
+    function sendCommand(command) {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "http://192.168.50.31/?LED=" + command, true);
+      xhr.send();
+    }
+  </script>
+</body>
+</html>

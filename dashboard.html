@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="logo">Dashboard</div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><iframe src="URL_of_the_document_to_embed" width="width_in_pixels_or_percentage" height="height_in_pixels_or_percentage" frameborder="0" scrolling="auto"></iframe>
+              Datasheet</a></li>
+           
+            <li><a href="index.html">Login</a></li>
+            
+        </ul>
+    </div>
+    <div class="dashboard">
+        <div class="digital-display">
+            <div class="display">
+                <div class="screen">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto itaque ab delectus nemo nesciunt, ex rerum atque voluptate quae deleniti commodi, blanditiis reiciendis accusantium doloremque nihil molestias consequuntur. Quasi modi temporibus veniam consectetur facilis minus id eligendi fugit, esse rerum natus ipsam, vitae officia itaque deleniti tempore qui, aspernatur molestias?</p>
+                    <div class="text" id="serial-data">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, est cumque! Maxime modi, quo eveniet iusto explicabo, architecto aliquam perferendis beatae aliquid ipsam sapiente, quas nisi doloremque similique unde. Hic aut laudantium ut officia deserunt, ex, aliquam sint deleniti itaque non exercitationem molestias officiis explicabo quas quis, error doloribus! Iusto?</p>
+                         Serial monitor data will be dynamically updated here 
+                        Waiting for data...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inner">
+          <div class="one">
+            <div class="current_value"></div>
+            <div class="led-bulb" id="led-bulb_1"></div>
+              <div class="button_display">
+                <div class="container">
+                  <input type="checkbox" id="checkbox_1" />
+                    <label for="checkbox_1" class="button">
+                      <span class="icon">
+                        <!-- <button id="toggleButton">Toggle LED</button> -->
+                        <svg
+                          data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #000000;"
+                          fill=""
+                          xml:space="preserve"
+                          viewBox="0 0 30.143 30.143"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          id="Capa_1"
+                          version="1.1"
+                          width="200px"
+                          height="200px">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                          id="SVGRepo_tracerCarrier"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z"
+                            ></path>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"
+                            ></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                    </label>
+                </div>
+              </div>
+          </div>
+          <div class="one">
+            <div class="current_value"></div>
+            <div class="led-bulb" id="led-bulb_2"></div>
+              <div class="button_display">
+                <div class="container">
+                  <input type="checkbox" id="checkbox_2" />
+                    <label for="checkbox_2" class="button">
+                      <span class="icon">
+                        <svg
+                          data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #000000;"
+                          fill=""
+                          xml:space="preserve"
+                          viewBox="0 0 30.143 30.143"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          id="Capa_1"
+                          version="1.1"
+                          width="200px"
+                          height="200px">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                          id="SVGRepo_tracerCarrier"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z"
+                            ></path>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"
+                            ></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                    </label>
+                </div>
+              </div>
+          </div>
+          
+
+          <div class="one">
+            <div class="current_value"></div>
+            <div class="led-bulb" id="led-bulb_3"></div>
+              <div class="button_display">
+                <div class="container">
+                  <input type="checkbox" id="checkbox_3" />
+                    <label for="checkbox_3" class="button">
+                      <span class="icon">
+                        <svg
+                          data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #000000;"
+                          fill=""
+                          xml:space="preserve"
+                          viewBox="0 0 30.143 30.143"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          id="Capa_1"
+                          version="1.1"
+                          width="200px"
+                          height="200px">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                          id="SVGRepo_tracerCarrier"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z"
+                            ></path>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"
+                            ></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                    </label>
+                </div>
+              </div>
+          </div>
+
+          <div class="one">
+            <div class="current_value"></div>
+            <div class="led-bulb" id="led-bulb_4"></div>
+              <div class="button_display">
+                <div class="container">
+                  <input type="checkbox" id="checkbox_4" />
+                    <label for="checkbox_4" class="button">
+                      <span class="icon">
+                        <svg
+                          data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #000000;"
+                          fill=""
+                          xml:space="preserve"
+                          viewBox="0 0 30.143 30.143"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          id="Capa_1"
+                          version="1.1"
+                          width="200px"
+                          height="200px">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                          id="SVGRepo_tracerCarrier"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z"
+                            ></path>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"
+                            ></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                    </label>
+                </div>
+              </div>
+          </div>
+
+
+
+          <div class="one">
+            <div class="current_value"></div>
+            <div class="led-bulb" id="led-bulb_5"></div>
+              <div class="button_display">
+                <div class="container">
+                  <input type="checkbox" id="checkbox_5" />
+                    <label for="checkbox_5" class="button">
+                      <span class="icon">
+                        <svg
+                          data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #000000;"
+                          fill=""
+                          xml:space="preserve"
+                          viewBox="0 0 30.143 30.143"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          id="Capa_1"
+                          version="1.1"
+                          width="200px"
+                          height="200px">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                          id="SVGRepo_tracerCarrier"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z"
+                            ></path>
+                            <path
+                            data-darkreader-inline-fill=""
+                            d="M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"
+                            ></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                    </label>
+                </div>
+              </div>
+          </div>
+
+
+
+        </div>
+    
+  
+     <script src="script.js"></script>
+     <script src="display.js"></script>
+</body>
+</html>
